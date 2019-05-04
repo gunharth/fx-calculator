@@ -5,4 +5,4 @@ document.querySelectorAll('select').forEach(element => {
         <option value="CHF">CHF</option>
         <option value="SEK">SEK</option>
     `;
-})
+});
