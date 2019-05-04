@@ -1,5 +1,5 @@
-// const fixerUir = 'https://data.fixer.io/api/latest?base=EUR&symbols=USD,SEK,CHF&access_key=ac560b25d88736ba6f79abe0e3b7e11f';
-const fixerUir = 'rates.json';
+const fixerUir = 'http://data.fixer.io/api/latest?base=EUR&symbols=USD,SEK,CHF&access_key=ac560b25d88736ba6f79abe0e3b7e11f';
+// const fixerUir = 'rates.json';
 
 document.querySelectorAll('select').forEach(element => {
     element.innerHTML = `
