@@ -3,7 +3,7 @@ self.addEventListener('install', function (e) {
         caches.open('fxcalc-v1')
             .then(function (cache) {
                 return cache.addAll([
-                    '/',
+                    '/fx-calculator/',
                     'index.html',
                     'style.css',
                     'app.js',
