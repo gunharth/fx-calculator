@@ -1,0 +1,22 @@
+{
+  "name": "fx-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunharth/fx-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunharth/fx-calculator/issues"
+  },
+  "homepage": "https://github.com/gunharth/fx-calculator#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.5"
+  }
+}
